@@ -2,7 +2,12 @@ import "./Navbar.scss";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h1>navbar</h1>
+      <a href="#about">About Us</a>
+      <a href="#foryou">For You</a>
+      <a href="#services">Services</a>
+      <a href="#blog">Blog</a>
+      <a href="#vlog">Vlog</a>
+      <a href="#content">Content</a>
     </div>
   );
 };
